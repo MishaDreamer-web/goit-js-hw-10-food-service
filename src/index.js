@@ -11,3 +11,5 @@ foodMenuContainer.insertAdjacentHTML("beforeend", menuMarkup);
 function makeMenuPage(menuItems) {
   return menuItems.map(menuTemplate).join("");
 }
+
+// Добавляет все на основе своей зборки парселя
